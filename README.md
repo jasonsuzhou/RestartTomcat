@@ -1,0 +1,2 @@
+# RestartTomcat
+由于tomcat频繁热部署会导致OOM， 并且没有什么好的解决办法，所以写了一个task去监听war包的改动，war包有改动的话会去自动重启tomcat
